@@ -35,7 +35,7 @@ function calculateResults() {
     monthlyPayment.value = monthly.toFixed(2);
     totalPayment.value = (monthly * calculatedPayment).toFixed(2);
     totalInterest.value = (monthly * calculatedPayment - principal).toFixed(2);
-    //Show resuslts
+    //Show results
     document.getElementById("results").style.display = "block";
     //Hide loarder
     document.getElementById("loading").style.display = "none";
@@ -47,7 +47,7 @@ function calculateResults() {
 ///////////////////////////////////
 //Show error
 function showError(error) {
-  //Hide resuslts
+  //Hide results
   document.getElementById("results").style.display = "none";
   //Hide loarder
   document.getElementById("loading").style.display = "none";
